@@ -117,10 +117,10 @@ Quantidades de Vendas por canal
 
 3. Pasta "Aplicação" contendo
     - Binários de exemplo de execução.
-        - Dependencias: .Net 5.0 Runtime (download: https://dotnet.microsoft.com/download/dotnet/5.0)
+        - Dependencias: Python3.8 Runtime (download: https://www.python.org/downloads/release/python-380/)
     - Commandos para executar:
-        - Windows: ```EstoqueOperacional.exe "../Caso de teste 1/c1_vendas.txt" "../Caso de teste 1/c1_produtos.txt"```
-        - Linux: ```dotnet EstoqueOperacional.dll "../Caso de teste 1/c1_vendas.txt" "../Caso de teste 1/c1_produtos.txt"```
+        - Windows: ```python3 estoque_operacional.py c1_vendas.txt c1_produtos.txt```
+        - Linux: ```python3 estoque_operacional.py c1_vendas.txt c1_produtos.txt```
 
 ### Agradecimentos
 Agradecimentos ao professor **Sérgio Luiz Banin** que disponibilizou os problemas utilizados em sala de aula na Faculdade de Tecnologia de São Caetano do Sul.
